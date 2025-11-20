@@ -306,7 +306,7 @@ body {
   position: relative;
 }
 
-.o-ookina-p {
+.ookina-p {
   position: absolute;
   bottom: 32px;
   left: 10px;
@@ -316,14 +316,14 @@ body {
   color: #ffffff;
 }
 
-.o-chiisai-p {
+.chiisai-p {
   position: absolute;
   bottom: 8px;
   left: 10px;
   color: #ffffff;
 }
 
-.o-nedan {
+.nedan {
   bottom: 8px;
   right: 10px;
   position: absolute;
