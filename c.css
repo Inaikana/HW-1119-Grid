@@ -2,9 +2,25 @@ body {
   background-color: #eeeeee;
 }
 
+.san {
+  color: #fab617;
+  font-size: 36px;
+  margin: 0 auto;
+  width: 1150px;
+  position: relative;
+  padding-bottom: 24px;
+}
+
+.t1 {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+
 .title {
   font-size: 28px;
   font-weight: 700;
+  color: black;
 }
 
 .eyes {
