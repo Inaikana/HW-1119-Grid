@@ -273,31 +273,33 @@ body {
   margin-right: auto;
   margin-top: 24px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, minmax(0, 1fr));
   gap: 16px;
 }
 
 .ookina {
-  background-color: #ffb8f4;
   grid-area: 1/1/3/3;
 }
 
 .hidari-ue {
-  background-color: #6df5ff;
   grid-area: 1/3/2/4;
 }
 
 .migi-ue {
-  background-color: #9807dc;
   grid-area: 1/4/2/5;
 }
 
 .hidari-shita {
-  background-color: #aba6a6;
   grid-area: 2/3/3/4;
 }
 
 .migi-shita {
-  background-color: #f4ffa4;
   grid-area: 2/4/3/5;
+}
+
+.syashin {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
 }
