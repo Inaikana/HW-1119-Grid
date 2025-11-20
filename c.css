@@ -338,3 +338,15 @@ body {
   color: #ffffff;
   padding-left: 4px;
 }
+
+/* 以上【2 日本跟團】 */
+
+.tw-li {
+  width: 100px;
+  padding: 4px;
+}
+
+.tw-li-pick {
+  color: #0c945c;
+  font-weight: 600;
+}
