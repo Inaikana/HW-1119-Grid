@@ -8,8 +8,6 @@ body {
 }
 
 .eyes {
-  background-color: #222222;
-
   margin: 0 auto;
   display: grid;
   width: 1150px;
@@ -46,7 +44,7 @@ body {
   font-weight: 600;
   position: absolute;
   left: 8px;
-  bottom: 12px;
+  bottom: 8px;
 }
 
 .L2top-mid-area {
@@ -71,28 +69,67 @@ body {
   color: #ffffff;
 }
 
-#L2under-samll {
+.L2under-samll-area {
   grid-area: L2under-samll;
+  position: relative;
+}
+
+#L2under-samll {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 16px;
+}
+
+.L2under-samll-word {
+  grid-area: L2under-samll;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+}
+
+.L3top-small-area {
+  grid-area: L3top-small;
+  position: relative;
 }
 
 #L3top-small {
-  grid-area: L3top-small;
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 16px;
 }
 
-#L3under-mid {
+.L3top-small-word {
+  grid-area: L3top-small;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+}
+
+.L3under-mid-area {
   grid-area: L3under-mid;
+  position: relative;
+}
+
+#L3under-mid {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 16px;
+}
+
+.L3under-mid-word {
+  grid-area: L3under-mid;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
 }
 
 .list-1 {
