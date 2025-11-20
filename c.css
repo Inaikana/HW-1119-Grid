@@ -28,20 +28,47 @@ body {
     "L1-big L1-big L2under-samll L2under-samll L3under-mid L3under-mid list-4 list-4 list-4";
 }
 
-#L1-big {
+.L1-big-area {
   grid-area: L1-big;
+  position: relative;
+}
+
+#L1-big {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 16px;
 }
 
-#L2top-mid {
+.L1-big-word {
+  grid-area: L1-big;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 8px;
+  bottom: 12px;
+}
+
+.L2top-mid-area {
   grid-area: L2top-mid;
+  position: relative;
+}
+
+#L2top-mid {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 16px;
+}
+
+.L2top-mid-word {
+  grid-area: L2top-mid;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  color: #ffffff;
 }
 
 #L2under-samll {
