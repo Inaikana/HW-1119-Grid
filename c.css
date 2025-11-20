@@ -1,10 +1,14 @@
+body {
+  background-color: #eeeeee;
+}
+
 .title {
   font-size: 28px;
   font-weight: 700;
 }
 
 .eyes {
-  background-color: aqua;
+  background-color: #222222;
 
   margin: 0 auto;
   display: grid;
@@ -29,6 +33,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 16px;
 }
 
 #L2top-mid {
@@ -36,6 +41,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 16px;
 }
 
 #L2under-samll {
@@ -43,6 +49,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 16px;
 }
 
 #L3top-small {
@@ -50,6 +57,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 16px;
 }
 
 #L3under-mid {
@@ -57,12 +65,15 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 16px;
 }
 
 .list-1 {
   display: flex;
   grid-area: list-1;
-  background-color: #ffb8f4;
+  background-color: #b8eeff;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 #list1-syashin {
@@ -74,7 +85,9 @@
 .list-2 {
   display: flex;
   grid-area: list-2;
-  background-color: #00b24a;
+  background-color: #b8eeff;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 #list2-syashin {
@@ -86,7 +99,9 @@
 .list-3 {
   display: flex;
   grid-area: list-3;
-  background-color: #3f00c8;
+  background-color: #b8eeff;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 #list3-syashin {
@@ -98,11 +113,21 @@
 .list-4 {
   display: flex;
   grid-area: list-4;
-  background-color: #f5ff98;
+  background-color: #b8eeff;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 #list4-syashin {
   width: 33%;
   height: 100%;
   object-fit: cover;
+}
+
+.list-p {
+  width: 67%;
+  font-size: 14px;
+  padding-right: 32px;
+  padding-left: 12px;
+  padding-top: 12px;
 }
