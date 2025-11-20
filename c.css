@@ -1,0 +1,31 @@
+.title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.eyes {
+  background-color: aqua;
+
+  margin: 0 auto;
+  display: grid;
+  width: 1150px;
+  height: 434px;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-areas:
+    "L1-big L1-big L2top-mid L2top-mid L3top-small L3top-small list-1 list-1 list-1"
+    "L1-big L1-big L2top-mid L2top-mid L3top-small L3top-small list-1 list-1 list-1"
+    "L1-big L1-big L2top-mid L2top-mid L3top-small L3top-small list-2 list-2 list-2"
+    "L1-big L1-big L2top-mid L2top-mid L3under-mid L3under-mid list-2 list-2 list-2"
+    "L1-big L1-big L2top-mid L2top-mid  L3under-mid L3under-mid list-3 list-3 list-3"
+    "L1-big L1-big L2under-samll L2under-samll L3under-mid L3under-mid list-3 list-3 list-3"
+    "L1-big L1-big L2under-samll L2under-samll L3under-mid L3under-mid list-4 list-4 list-4"
+    "L1-big L1-big L2under-samll L2under-samll L3under-mid L3under-mid list-4 list-4 list-4";
+}
+
+#L1-big {
+  grid-area: L1-big;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
