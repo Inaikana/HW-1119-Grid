@@ -402,6 +402,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, minmax(0, 1fr));
   gap: 16px;
+  position: relative;
 }
 
 .little-word {
@@ -521,4 +522,17 @@ body {
 .upup {
   color: #666666;
   padding-left: 4px;
+}
+
+.more {
+  color: #666666;
+  display: flex;
+  position: absolute;
+  bottom: -52px;
+  right: -8px;
+}
+
+.more-p {
+  font-size: 20px;
+  margin-right: 24px;
 }
